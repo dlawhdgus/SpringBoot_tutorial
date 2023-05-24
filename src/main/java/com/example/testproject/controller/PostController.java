@@ -14,7 +14,7 @@ public class PostController {
 
     //http://localhost:9090/api/v1/post-api/default
     @PostMapping(value = "/default")
-    public String postMrthod() {
+    public String postMethod() {
         return "Hello World";
     }
 
