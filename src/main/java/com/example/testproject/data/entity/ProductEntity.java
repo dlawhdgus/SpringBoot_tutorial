@@ -17,7 +17,7 @@ public class ProductEntity {
     @Id
     String productId;
     String productName;
-    String productPrice;
-    String productStock;
+    int productPrice;
+    int productStock;
 
 }
