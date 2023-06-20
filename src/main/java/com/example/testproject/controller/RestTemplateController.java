@@ -21,9 +21,7 @@ public class RestTemplateController {
     }
 
     @GetMapping(value =  "/test-server")
-    public String getTestServer() {
-        return restTemplateService.getTestServer();
-    }
+    public String getTestServer() { return restTemplateService.getTestServer(); }
 
     @GetMapping(value = "/name")
     public String getName() {
